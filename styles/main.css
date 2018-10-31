@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Rubik:400,500,700');
+
+body {
+    margin: 0px;
+    padding: 0px 5px;
+}
+
+.header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.header-container {
+    font-family: 'Rubik', sans-serif;
+    height: 60px;
+    color:  #ffffff;
+    text-align: center;
+    background-color: rgba(9, 157, 141, 0.8);
+
+}
+
+.group-name {
+   
+    line-height: 60px;
+    margin: 0; 
+    font-size:16px;
+    color:  #ffffff;
+}
+
+.menu-nav {
+    height: 45px;
+    line-height: 45px;
+    font-size:15px;
+    background-color: rgba(20, 217, 196, 0.8);
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-nav-link {
+    color:  #ffffff;
+    text-decoration: none;
+    
+}
+/* 
+.image img {
+    width: 100%;
+
+} */
+
+.hero {
+    
+    background-image: url(../images/foto-grupo.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-main {
+    height: 421px;
+}
+
+.claim {
+    
+    margin: 0 15px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.993);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transform: translateY(-50%);   
+}
+
+.contact-image {
+    height: 300px;
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.team{
+    position: relative;
+}
+
+.anchor{
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    top: -115px;
+}
+.team-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #099d8d;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+}
+
+.strengths .subtitle {
+    margin: 0px 0px 10px 0px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #099d8d;
+    font-family: "Rubik", serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 30px 0px 10px 0px;
+}
+
+.skills {
+    background-color: #f1f1f1;
+    padding: 30px 20px 45px 20px;
+    position: relative;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative; */
+}
+
+/* .team{
+    position: relative;
+} */
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-top: 25px solid white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:0px;
+   
+}
+
+.texteam {
+    color: #54585a;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.weakness .texteam {
+    margin-bottom: 0px;
+}
+
+.container-about-us{
+    position: relative;
+}
+
+.about-us-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #099d8d;
+    margin: 30px 0px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.descriptions{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin: 0px;
+
+}
+
+.descriptions:nth-child(2n+1){
+    flex-direction: row-reverse;
+    align-self: flex-end;
+    /* text-align: right; */
+}
+
+.profile-pic{
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 0 4px rgba(0,0,0,.13);
+    border-radius: 4px;
+    
+
+}
+.story{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a;
+    margin: 10px 0px;
+    /* width: 50vw; */
+}
+.icons {
+    /* width: 20px; */
+    margin: 15 0 0 45px;
+    color: #000000;
+}
+.fab {
+    color: #099d8d;
+}
+
+/*para version movil, no usar esto, para la página web, veremos*/
+
+/* .container-about-us{
+    background-color: silver;
+    border: 5px;
+    padding: 30px;
+    margin: 5px;
+
+} */
+
+.personal{
+    /* background-color: beige; */
+    text-align: center;
+    margin-top: 15px;
+}
+
+.icons{
+    padding: 15px 0 45px 0;
+}
+
+
+footer{
+    bottom: 0;
+    width: 100%;
+    border-top: 2px #b8b8b9 solid;
+    /* height: 100%; */
+}
+
+.stamp{
+      margin:30px 0 20px 0;
+      color:#b8b8b9;
+      font-family: "Open Sans", sans-serif;
+      font-size:14px;
+      text-align: center;
+}
+
+.navfooter{
+      font-family: "Open Sans", sans-serif;
+      color: #54585a;
+      font-size: 14px;
+/*con semibold no va, y como en normal es 400 y el bold 700, una cosa intermedia 600*/
+      font-weight: 550;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+}
+    
+.adalab{
+        text-align: center;
+}
+  
+.adalab img{
+    width: 115.9px;
+    height: 45px;
+    margin:30px 0 45px;
+}
+  
