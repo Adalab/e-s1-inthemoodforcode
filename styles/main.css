@@ -149,3 +149,27 @@
 .icons{
     padding: 15px 0 45px 0;
 }
+
+
+@media all and (min-width: 768px) and (max-width:1200px) {
+    .skills {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+    .strengths {
+        width:50%;
+    }
+
+    .weakness {
+        width:50%;
+    }
+
+    .team {
+        padding: 45px 0 60px 0;
+    }
+}
+
