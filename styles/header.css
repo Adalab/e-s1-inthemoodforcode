@@ -41,4 +41,36 @@
 
 } */
 
+
+@media all and (min-width: 768px) and (max-width:1200px){
+    .header-container{
+        display: flex;
+        align-content: space-between;
+        align-items: center;
+        
+       
+    }
+    .name{ 
+        /* justify-content: flex-start; */
+        display: inline-block;
+        margin-left: 45px;
+        width:50%;
+            }
+
+    .menu{
+        /* justify-content: flex-end; */
+       
+        display: inline-block;
+        width:50%;
+    }
+    .menu-nav { 
+        margin-right: 45px;
+     
+        
+
+       
+    }
+
+   
+
 }
