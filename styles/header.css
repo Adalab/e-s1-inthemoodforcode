@@ -1,0 +1,44 @@
+
+.header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.header-container {
+    font-family: 'Rubik', sans-serif;
+    height: 60px;
+    color:  #ffffff;
+    text-align: center;
+    background-color: rgba(9, 157, 141, 0.8);
+
+}
+
+.group-name {
+   
+    line-height: 60px;
+    margin: 0; 
+    font-size:16px;
+    color:  #ffffff;
+}
+
+.menu-nav {
+    height: 45px;
+    line-height: 45px;
+    font-size:15px;
+    background-color: rgba(20, 217, 196, 0.8);
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-nav-link {
+    color:  #ffffff;
+    text-decoration: none;
+    
+}
+/* 
+.image img {
+    width: 100%;
+
+} */
+
+}
