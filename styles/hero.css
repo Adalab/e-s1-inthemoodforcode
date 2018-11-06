@@ -18,4 +18,14 @@
     background-color: rgba(255, 255, 255, 0.993);
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    transform: translateY(-50%);   
+    transform: translateY(-50%);  
+} 
+
+    @media all and (min-width: 768px) and (max-width:1200px){
+ }
+ .claim {
+     /* margin: 15 30px; */
+     padding: 15 30px;
+     /* padding: 0; */
+     width: 441px;
+ }
