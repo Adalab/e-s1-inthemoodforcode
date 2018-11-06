@@ -150,14 +150,39 @@
 
     /*** ABOUT US ***/
 
+    .about-us-title {
+        margin: 45px 0 45px 0;
+    }
 
-    .descriptions:nth-child(2n+1){
+    .descriptions {
+        margin-bottom: 60px;
+    }
+
+    .personal {
+
+        margin: 0 0 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .descriptions:nth-child(2n) .personal {
+               
+        align-items: flex-end;
+        padding: 0 30px 0 0;
+    }
+
+
+
+    .descriptions:nth-child(2n) .story {
         
         text-align: right;
     }
 
     .story{
         width: 50vw;
+        margin-bottom: 0;
+        text-align: left;
     }
    
     .profile-pic{
@@ -166,11 +191,7 @@
         
     }
 
-    .personal {
-
-        margin: 0 0 15px 30px;
-    }
-
+    
     .icons{
         padding-bottom: 0;
     }
@@ -179,37 +200,39 @@
 
 
     /***** PARTE DE TEAM *******/
+
+
+    .team {
+        padding: 45px 30px 60px 30px;
+    }
+
+    .team-title {
+        margin-bottom: 15px;
+    }
+
+
     .skills {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        width: 100%;
-        
+        width: 100%;       
 
     }
 
     .strengths {
         width:50%;
         padding-right: 15px;
-        padding-left: 10px;
+        padding-left: 35px;
         box-sizing: border-box;
         flex-grow: 1;
     }
 
     .weakness {
         width: 50%;
-        padding-right: 10px;
+        padding-right: 35px;
         padding-left: 15px;
         box-sizing: border-box;
         flex-grow: 1;
-    }
-
-    .team {
-        padding: 45px 0 60px 0;
-    }
-
-    .team-title {
-        margin-bottom: 15px;
     }
 
     .skills {
@@ -219,6 +242,10 @@
     .subtitle {
         margin-bottom: 15px;
         margin-top: 0px;
+    }
+
+    .texteam {
+        margin-bottom: 0;
     }
     
    
