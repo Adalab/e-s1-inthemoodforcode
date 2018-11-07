@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+ 
 }
 
 .image-main {
@@ -18,5 +19,19 @@
     background-color: rgba(255, 255, 255, 0.993);
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    transform: translateY(-50%);   
+    transform: translateY(-50%);  
+}
+@media all and (min-width: 768px) and (max-width:1200px){
+    .claim {
+        margin: 0 0 0 45px;
+        padding: 15px 30px;
+        width: 441px;
+        background-color: rgba(255, 255, 255, 0.8);
+        transform: translateY(-100%); 
+        position: absolute;
+
+    }
+    .hero {
+        position: relative;
+    }
 }
