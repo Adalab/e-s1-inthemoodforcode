@@ -270,5 +270,32 @@
         padding-left: 22.5px;
 
     }
+
+    .profile-pic {
+        width: 278px;
+        height: 278px;
+    }
+
+    .story {
+        width: 439px;
+    }
+
+    .descriptions:nth-child(2n) .personal {
+        padding: 0 45px 0 0;
+        margin: 0;
+
+    }
+    .descriptions:nth-child(2n+1) .personal {
+        padding: 0 0  0 45px;
+        margin: 0;
+
+    }
 }
+
+
+// .descriptions:nth-child(2n) .personal 
+
+// .personal {
+
+//     margin: 0 0 0 30px;
 
