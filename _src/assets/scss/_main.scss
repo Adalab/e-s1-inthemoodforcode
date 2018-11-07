@@ -252,6 +252,23 @@
 // Versión desktop//
 
 @media all and (min-width: 1200px) {
-    
+    .texteam {
+        width: 601px;
+    }
+
+    .team {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .strengths{
+        padding-right: 22.5px;
+
+    }
+
+    .weakness{
+        padding-left: 22.5px;
+
+    }
 }
 
