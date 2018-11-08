@@ -1,8 +1,8 @@
-footer{
+.pie{
     bottom: 0;
     width: 100%;
     border-top: 2px #b8b8b9 solid;
-    /* height: 100%; */
+   
 }
 
 .stamp{
@@ -35,37 +35,8 @@ footer{
 }
 
 @media all and (min-width: 768px) {
-    // .stamp {
-    //     float: left;
-    //     margin-bottom: 15px;
-    //     margin-left: 45px;
-    // }
-
-    // .imagen-adalab {
-    //     margin-top: 20px;
-    //     float: left;
-    //     margin: 0 0 60px 0;
-    // }
-
-    // .menu-footer {
-    //     float: right;
-    //     margin-top: 25px;
-    //     margin-right: 45px;
-    // }
-
-    // .menu-navfooter {
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: flex-end;
-    // }
-
-    // .adalab {
-    //     float:left;
-    //     clear: both;
-    //     margin-left: 35px;
-    // }
-
-    footer {
+   
+    .pie {
         position: relative;
         padding: 30px 35px 60px;
     }
@@ -74,7 +45,13 @@ footer{
         position: absolute;
         right: 15vw;
         top: 25px;
+        text-align: right;
+    }
 
+    .navfooter {
+        text-align: right;
+        line-height: 30px;
+    
     }
 
     .adalab, .stamp {
