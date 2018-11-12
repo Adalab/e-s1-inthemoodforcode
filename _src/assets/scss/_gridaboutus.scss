@@ -1,25 +1,46 @@
+container-about-us{
+    text-align: center;
+}
 .about-us-title {
     margin: 45px 0 45px 0;
 }
 
 .descriptions {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    
    
 }
-
+.profilepic-container{
+    grid-column: span 2;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
 .profile-pic{
-    grid-column: span 1;
+    
+    width: 205px;
+    height: 205px;
+    
 }
 .personal {
-    grid-column: span 1;
+    background-color: green;
+    grid-column: span 2;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 1fr;
  
 }
-
+@media all and (min-width:768){
+    .profile-pic{
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+    .personal{
+        grid-column: span 1;
+    }
+}
 
 .descriptions:nth-child(2n) .personal {       
     
@@ -30,22 +51,3 @@
 .descriptions:nth-child(2n) .story {   
   
 }
-
-.story{
-   
-}
-
-.profile-pic{
-    width: 205px;
-    height: 205px;
-    
-}
-
-
-.icons{
-    padding-bottom: 0;
-}
-
-
-
-
