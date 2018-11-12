@@ -1,27 +1,35 @@
+
 <div class="wrapper">
     <div class="contacta">
-        <h2 class="contact-tittle">Contacto</h2>
-        <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. </p>
-        <p class="contact-advise">Todos los campos marcados con <span class="llamada">*</span> son obligatorios.</p>
+        <h2 class="contact-title">CONTACT US</h2>
+        <p class="contact-text"> If you want to get to know us better, have doubts or any suggestions, feel free to contact us. </p>
+        <p class="contact-advise">All fields tagged with <span class="llamada">*</span> are mandatory.</p>
     </div>
 
 
-    <form action="" method="post">
-        <div class="part1">
-            <label class="name-class" for="name">Nombre completo <span class="llamada">*</span></label>
-            <input class="input-name" type="text" id="name" name="name" placeholder="Nombre..." required>
+    <form class="form__wraper" action="/signup" method="post">
+        <div class="part part-1">
+            <label class="name-class" for="name">Full Name <span class="llamada">*</span></label>
+            <input class="input-name" type="text" id="name" name="name" placeholder="Name..." required>
         </div>
-        <div class="part2">
+
+        <div class="part part-2">
             <label class="email-class" for="email">Email <span class="llamada">*</span></label>
-            <input class="input-email" type="email" id="name" name="name" placeholder="nombre.apellidos@mail.com">
-            <label class="tel-class" for="tlf">Teléfono</label>
-            <input class="input-tel" type="tel" id="tlf" name="tlf" placeholder="Ej. 123456789">
+            <input class="input-email" type="email" id="name" name="name" value="name.lastname@mail.com">
+            </div>
+
+        <div class="part part-3">    
+            <label class="tel-class" for="tlf">Phone Number</label>
+            <input class="input-tel" type="tel" id="tlf" name="tlf" placeholder="Ie. 123456789">
         </div>
-        <div class="part3">
+
+        <div class="part part-4">
             <label class="msg-class" for="msg">Mensaje <span class="llamada">*</span></label>
-            <textarea name="msg" rows="8" cols="80">¿Qué necesitas?</textarea>
+            <textarea name="msg" rows="8" cols="80" placeholder="What do you need?"></textarea>
         </div>
+
+        <div class="submit-button">
         <input type="submit" value="Enviar" class="btn">
+        </div>
     </form>
 </div>
