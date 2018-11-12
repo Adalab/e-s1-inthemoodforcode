@@ -3,13 +3,23 @@
 }
 
 .descriptions {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
    
 }
 
+.profile-pic{
+    grid-column: span 1;
+}
 .personal {
-
-   
+    grid-column: span 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+ 
 }
+
 
 .descriptions:nth-child(2n) .personal {       
     
