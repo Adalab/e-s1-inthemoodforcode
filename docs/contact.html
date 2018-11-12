@@ -8,41 +8,86 @@
     </head>
     
     <body>
-        <header class="header">
-            <div class="header-container">
-                <div class="name">
-                     <h1 class="group-name">IN THE MOOD FOR CODE</h1>
+        <header class="page__header">
+            <header class="header">
+                <div class="header-container">
+                    <div class="header_name">
+                         <h1 class="group-name">IN THE MOOD FOR CODE</h1>
 
-                </div>
-                <div class="menu">
-                    <nav class="menu-nav"> <a class="menu-nav-link" href="index.html#team-all">TEAM</a>
+                    </div>
+                    <div class="menu">
+                        <nav class="menu-nav"> <a class="menu-nav-link" href="#team-all">TEAM</a>
  <a class="menu-nav-link"
-                        href="index.html#about-us">ABOUT US</a>
- <a class="menu-nav-link" href="#">CONTACT US</a>
+                            href="#about-us">ABOUT US</a>
+ <a class="menu-nav-link" href="contact.html"
+                            target="_blank">CONTACT US</a>
 
-                    </nav>
+                        </nav>
+                    </div>
                 </div>
-            </div>
+            </header>
         </header>
         <main>
-            <div class="hero">
-                <div class="contact-image">
-                    <!-- <img src="images/in-the-mood-for-love.jpg" alt="imagen-grupo"> -->
+            <section>
+                <div class="complete-hero">
+                    <div class="hero">
+                        <div class="image-main"></div>
+                    </div>
+                    <div class="claim">
+                         <h2>If you can dream it, you can code it!</h2>
+
+                    </div>
                 </div>
+            </section>
+            <div class="wrapper">
+                <div class="contacta">
+                     <h2 class="contact-tittle">Contacto</h2>
+
+                    <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="contact-advise">Todos los campos marcados con <span class="llamada">*</span> son obligatorios.</p>
+                </div>
+                <form action="" method="post">
+                    <div class="part1">
+                        <label class="name-class" for="name">Nombre completo <span class="llamada">*</span>
+
+                        </label>
+                        <input class="input-name" type="text" id="name" name="name" placeholder="Nombre..."
+                        required>
+                    </div>
+                    <div class="part2">
+                        <label class="email-class" for="email">Email <span class="llamada">*</span>
+
+                        </label>
+                        <input class="input-email" type="email" id="name" name="name" placeholder="nombre.apellidos@mail.com">
+                        <label class="tel-class" for="tlf">Teléfono</label>
+                        <input class="input-tel" type="tel" id="tlf" name="tlf"
+                        placeholder="Ej. 123456789">
+                    </div>
+                    <div class="part3">
+                        <label class="msg-class" for="msg">Mensaje <span class="llamada">*</span>
+
+                        </label>
+                        <textarea name="msg" rows="8" cols="80">¿Qué necesitas?</textarea>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn">
+                </form>
             </div>
         </main>
         <footer>
-            <div class="stamp">In the mood for Code &copy2018</div>
-            <div class="menu-footer">
-                <nav class="menu-navfooter"> <a class="navfooter" href="index.html#team-all">TEAM</a>
- <a class="navfooter"
-                    href="index.html#about-us">ABOUT US</a>
- <a class="navfooter" href="contact.html">CONTACT US</a>
+            <div class="pie">
+                <div class="stamp">In the mood for Code &copy2018</div>
+                <div class="menu-footer">
+                    <nav class="menu-navfooter"> <a class="navfooter" href="#team-all">TEAM</a>
+ <a class="navfooter" href="#about-us">ABOUT US</a>
 
-                </nav>
-            </div>
-            <div class="adalab">
-                <img src="images/logo-adalab.png" alt: "logo de adalab">
+                        <a
+                        class="navfooter" href="contact.html" target="_blank">CONTACT US</a>
+                    </nav>
+                </div>
+                <div class="adalab">
+                    <img class="imagen-adalab" src="assets/images/logo-adalab.png" alt="logo de adalab">
+                </div>
             </div>
         </footer>
     </body>
