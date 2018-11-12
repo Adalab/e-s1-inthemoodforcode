@@ -1,0 +1,166 @@
+/***** ABOUT US ******/
+
+.container-about-us{
+    position: relative;
+}
+
+.about-us-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #099d8d;
+    margin: 30px 0px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.descriptions{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin: 0px;
+
+}
+
+.descriptions:nth-child(2n){
+    flex-direction: row-reverse;
+    align-self: flex-end;
+    
+}
+
+.profile-pic{
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 0 4px rgba(0,0,0,.13);
+    border-radius: 4px;
+    
+}
+
+.story{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a;
+    margin: 10px 0px;
+    
+}
+.icons {
+
+    margin: 15 0 0 45px;
+    color: #000000;
+}
+
+.linkedin{
+    text-decoration: none;
+}
+
+.fab {
+    color: #099d8d;
+}
+
+/*para version movil, no usar esto, para la página web, veremos*/
+
+/* .container-about-us{
+    background-color: silver;
+    border: 5px;
+    padding: 30px;
+    margin: 5px;
+
+} */
+
+.personal{
+    
+    text-align: center;
+    margin-top: 15px;
+}
+
+.icons{
+    padding: 15px 0 45px 0;
+}
+
+
+@media all and (min-width: 768px) {
+
+    /*** ABOUT US ***/
+
+    .about-us-title {
+        margin: 45px 0 45px 0;
+    }
+
+    .descriptions {
+        margin-bottom: 60px;
+    }
+
+    .personal {
+
+        margin: 0 0 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .descriptions:nth-child(2n) .personal {
+               
+        align-items: flex-end;
+        padding: 0 30px 0 0;
+    }
+
+
+
+    .descriptions:nth-child(2n) .story {
+        
+        text-align: right;
+    }
+
+    .story{
+        width: 50vw;
+        margin-bottom: 0;
+        text-align: left;
+    }
+   
+    .profile-pic{
+        width: 205px;
+        height: 205px;
+        
+    }
+
+    
+    .icons{
+        padding-bottom: 0;
+    }
+
+
+
+
+
+// Versión desktop//
+
+@media all and (min-width: 1200px) {
+
+
+    .profile-pic {
+        width: 278px;
+        height: 278px;
+    }
+
+    .story {
+        width: 439px;
+    }
+
+    .descriptions:nth-child(2n) .personal {
+        padding: 0 45px 0 0;
+        margin: 0;
+
+    }
+    .descriptions:nth-child(2n+1) .personal {
+        padding: 0 0  0 45px;
+        margin: 0;
+
+    }
+
+
+
