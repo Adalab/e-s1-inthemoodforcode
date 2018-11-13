@@ -1,3 +1,6 @@
+ul{
+    padding: 0;
+}
 /***** ABOUT US ******/
 
 .container-about-us{
@@ -100,20 +103,24 @@
         background-color: green;
         margin-bottom: 60px;
         display:grid;
-        grid-template-columns: 35% 60%;
+        grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
+        grid-column-gap: 30px;
         
         
                     }
 
     .individualpic{
-        background-color: blue;
         grid-column-start: 1;
         grid-column-end: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+
     }
 
     .personal{
-        background-color: orangered;
         grid-column-start: 2;
         grid-column-end: 3; 
         margin: 0 0 0 30px;
@@ -123,9 +130,9 @@
     }
 
     .descriptions:nth-child(2n) {
-        grid-template-columns: 65% 35%;
+        grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr;
-
+        grid-column-gap: 30px;
     }
     .descriptions:nth-child(2n) .personal {
         background-color: pink;
@@ -138,6 +145,7 @@
         background-color: purple;
         grid-column-start: 2;
         grid-column-end: 3;
+        grid-row:1;
     }
 
 
