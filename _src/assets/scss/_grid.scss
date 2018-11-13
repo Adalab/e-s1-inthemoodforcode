@@ -94,7 +94,9 @@ ul{
 @media all and (min-width: 768px) {
 
     /*** ABOUT US ***/
-
+    .container-about-us{
+        margin: 0 45px;
+    }
     .about-us-title {
         margin: 45px 0 45px 0;
     }
@@ -103,7 +105,7 @@ ul{
         background-color: green;
         margin-bottom: 60px;
         display:grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 205px 1fr;
         grid-template-rows: 1fr;
         grid-column-gap: 30px;
         
@@ -130,7 +132,7 @@ ul{
     }
 
     .descriptions:nth-child(2n) {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 205px;
         grid-template-rows: 1fr;
         grid-column-gap: 30px;
     }
