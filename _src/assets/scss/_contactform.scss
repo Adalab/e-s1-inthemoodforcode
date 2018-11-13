@@ -121,6 +121,10 @@ input[type=submit] {
         width: 206px;
         height: 45px;
         align-self: flex-end;
+        transition: box-shadow ease .7s;
+        &:hover{
+            box-shadow: 10px 10px 20px #b8b8b9;
+        }
     }
 
     .locura{

@@ -33,8 +33,13 @@
 .menu-nav-link {
     color:  #ffffff;
     text-decoration: none;
-    
+    transition: color ease .5s;
+    &:hover{
+        color: #000000;
+        font-weight: bold;
+    }    
 }
+
 /* 
 .image img {
     width: 100%;
