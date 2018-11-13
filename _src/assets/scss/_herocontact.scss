@@ -1,0 +1,29 @@
+
+.hero {
+    
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.image-main {
+    height: 421px;
+}
+
+// @media all and (min-width: 768px) {
+//     .hero {
+//         position: relative;
+//     }
+// }
+
+//Desktop version//
+
+@media all and (min-width: 1200px) {
+   .image-main {
+       height: 550px;
+       width: 924px;
+
+   }
+}
