@@ -98,3 +98,35 @@ input[type=submit] {
 
 
 }
+
+//Desktop//
+
+@media all and (min-width: 1200px) {
+    .contact-title{
+        margin-top: 45px;
+    }
+
+    .wrapper{
+        width: 601px;
+        margin: 0 auto;
+    }
+
+    .form__wraper{
+        padding-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .submit-button{
+        width: 206px;
+        height: 45px;
+        align-self: flex-end;
+    }
+
+    .locura{
+        display: grid;
+        grid-template-columns: 395px 162px;
+        grid-gap: 44px;
+    }
+
+}
