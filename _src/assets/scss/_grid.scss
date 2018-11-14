@@ -5,6 +5,7 @@ ul {
 
 
 /***** ABOUT US ******/
+
 .wrapper--about-us{
   position: relative;
 }
@@ -175,15 +176,22 @@ ul {
 // Versión desktop//
 
 @media all and (min-width: 1200px) {
+  .grid-wrapper {
+    width: 924px;
+    margin: 0 auto;
+  }
   .container-about-us {
     margin: 0 45px;
   }
 
   .descriptions {
     display: grid;
-    grid-template-columns: 278px 1fr;
+    grid-template-columns: 278px auto;
     grid-template-rows: 1fr;
     grid-column-gap: 45px;
+  }
+  .story {
+    width: auto;
   }
 
   .profile-pic {
