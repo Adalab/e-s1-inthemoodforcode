@@ -21,6 +21,9 @@
     text-align: center;
     transform: translateY(-50%);  
 }
+
+//Tablet Version
+
 @media all and (min-width: 768px) {
     .claim {
         margin: 0 0 0 45px;
@@ -31,6 +34,7 @@
         position: absolute;
 
     }
+    
     .hero {
         position: relative;
     }

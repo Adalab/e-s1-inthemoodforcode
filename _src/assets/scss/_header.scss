@@ -43,14 +43,9 @@
     }    
 }
 
-/* 
-.image img {
-    width: 100%;
+//Tablet Version
 
-} */
-
-
- @media all and (min-width: 768px) {
+@media all and (min-width: 768px) {
     .header-container{
         display: flex;
         align-items: center;

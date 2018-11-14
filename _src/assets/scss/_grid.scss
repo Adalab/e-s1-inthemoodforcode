@@ -10,7 +10,7 @@ ul {
   position: relative;
 }
 
- #about-us{
+#about-us{
   position: absolute;
   width: 0;
   height: 0;
@@ -59,7 +59,6 @@ ul {
   margin-top: 15px;
 }
 
-
 .name {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -67,9 +66,6 @@ ul {
   margin: 0px;
 
 }
-
-
-
 
 .story {
   font-family: 'Open Sans', sans-serif;
@@ -95,7 +91,7 @@ ul {
   color: #099d8d;
 }
 
-
+//Tablet
 @media all and (min-width: 768px) {
 
   .container-about-us {
@@ -146,7 +142,6 @@ ul {
     grid-row: 1;
   }
 
-
   .descriptions:nth-child(2n) .story {
 
     text-align: right;
@@ -169,8 +164,6 @@ ul {
     padding-bottom: 0;
   }
 }
-
-
 
 
 // Versión desktop//
