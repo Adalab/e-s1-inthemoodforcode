@@ -3,16 +3,28 @@ ul {
   margin: 0;
 }
 
+
 /***** ABOUT US ******/
+.wrapper--about-us{
+  position: relative;
+}
+
+ #about-us{
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  top: -115px;
+}
 
 .container-about-us {
-  position: relative;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
   grid-row-gap: 45px;
-
 }
+
+
 
 .descriptions:last-child {
   margin-bottom: 45px;
