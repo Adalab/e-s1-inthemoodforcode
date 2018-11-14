@@ -1,23 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Rubik:400,500,700');
+@import 'common.scss';
 @import 'header.scss';
+@import 'herocontact.scss';
 @import 'hero.scss';
 @import 'main.scss';
 @import 'footer.scss';
 @import 'contactform.scss';
-
-body {
-    margin: 0px;
-    // overflow-x: hidden;
-    /* padding: 0px 5px; darle padding a los elementos que queremos que no lleguen al final */
-}
-
-.contact-image {
-    height: 300px;
-    background-image: url(../assets/images/contact.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-
-  
