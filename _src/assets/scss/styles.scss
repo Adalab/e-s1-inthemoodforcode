@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Rubik:400,500,700');
 @import 'common.scss';
 @import 'header.scss';
